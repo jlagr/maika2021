@@ -100,10 +100,6 @@ a:hover {
 
 .fh5co-network,
 .fh5co-about-us {
-  background: url("../images/about-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% 100%;
   padding: 50px 0;
   padding-top: 30px;
 }
@@ -159,15 +155,15 @@ a:hover {
   margin-top: 5px;
 }
 .fh5co-about-us a {
-  color: #ff8013 !important;
-  border-color: #ff8013;
-  border-radius: 0.5;
+  color: #fff !important;
+  border-color: #4e2b0d;
+  border-radius: 0;
   min-width: 150px;
 }
 .fh5co-about-us a:hover {
-  border-color: #ff8013 !important;
-  color: #ff8013 !important;
-  background-color: #fff;
+  background: transparent;
+  border-color: gray;
+  color: #ff8013;
 }
 
 .fh5co-content-box {
@@ -281,17 +277,6 @@ a:hover {
 .fh5co-content-box .gallery .card .card-body p {
   font-family: "Lato", sans-serif;
   font-weight: 700;
-}
-.fh5co-content-box .gallery .btn-outline-danger {
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-  border-color: #ff8013;
-  color: #ff8013;
-}
-.fh5co-content-box .gallery a:hover {
-  background: transparent;
-  color: #fff;
-  background: #ff8013;
 }
 
 footer {
