@@ -298,6 +298,10 @@ a:hover {
 footer {
   background: #101011;
   color: #fff;
+  font-size: x-small;
+}
+footer h5 {
+  font-size: small;
 }
 footer .footer1 p {
   margin-top: 30px;
