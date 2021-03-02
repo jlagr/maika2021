@@ -6,7 +6,7 @@
  */
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   overflow: hidden;
   overflow-y: scroll;
   background-color: #000;
@@ -41,7 +41,8 @@ body nav .navbar-nav .btn-danger:hover {
   border-color: #df6700;
 }
 
-a, a:hover {
+a,
+a:hover {
   color: #ff8013;
 }
 
@@ -56,7 +57,7 @@ a, a:hover {
   padding: 20px 0;
 }
 .fh5co-banner-text-box .quote-box h2 {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
   color: #fff;
   font-size: 40px;
@@ -97,7 +98,8 @@ a, a:hover {
   color: #ff8013;
 }
 
-.fh5co-network, .fh5co-about-us {
+.fh5co-network,
+.fh5co-about-us {
   background: url("../images/about-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -105,29 +107,46 @@ a, a:hover {
   padding: 50px 0;
   padding-top: 30px;
 }
-.fh5co-network figure, .fh5co-about-us figure {
+.fh5co-about-gray {
+  background: url("../images/gray-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  padding: 50px 0;
+  padding-top: 30px;
+}
+.fh5co-network figure,
+.fh5co-about-us figure {
   margin-top: -70px !important;
 }
-.fh5co-network h2, .fh5co-about-us h2 {
+.fh5co-network h2,
+.fh5co-about-us h2 {
   color: #ff8013;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 40px;
   margin-bottom: 0;
 }
-.fh5co-network h4, .fh5co-about-us h4, .fh5co-network h5, .fh5co-about-us h5, .fh5co-network p, .fh5co-about-us p {
+.fh5co-network h4,
+.fh5co-about-us h4,
+.fh5co-network h5,
+.fh5co-about-us h5,
+.fh5co-network p,
+.fh5co-about-us p {
   color: #282828;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
 }
-.fh5co-network hr, .fh5co-about-us hr {
+.fh5co-network hr,
+.fh5co-about-us hr {
   border-color: #ff8013;
   border-width: 5px;
   max-width: 100px;
   margin-left: 0;
   border-radius: 5px;
 }
-.fh5co-network figure, .fh5co-about-us figure {
+.fh5co-network figure,
+.fh5co-about-us figure {
   text-align: center;
 }
 
@@ -139,7 +158,7 @@ a, a:hover {
 }
 .fh5co-about-us p {
   color: #fff;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: normal;
 }
 .fh5co-about-us hr {
@@ -241,7 +260,8 @@ a, a:hover {
   bottom: -10px;
   background-size: 100% 100%;
 }
-.fh5co-content-box .trainers::before, .fh5co-content-box .trainers::after {
+.fh5co-content-box .trainers::before,
+.fh5co-content-box .trainers::after {
   content: "";
   position: absolute;
   border: 5px solid #ff8013;
@@ -267,7 +287,7 @@ a, a:hover {
   color: #fff;
 }
 .fh5co-content-box .gallery .card .card-body p {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
 }
 
@@ -280,7 +300,7 @@ footer .footer1 p {
 }
 footer .footer2 h4 {
   color: #ff8013;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
   text-align: center;
   margin: 20px auto;
@@ -290,13 +310,15 @@ footer .footer2 .form-box {
   padding: 20px 30px;
   margin-top: -30px;
 }
-footer .footer2 input[type='text'], footer .footer2 input[type='email'] {
+footer .footer2 input[type="text"],
+footer .footer2 input[type="email"] {
   background: transparent;
   border-radius: 0;
   border: none;
   border-bottom: 2px solid #000;
 }
-footer .footer2 input[type='text']:focus, footer .footer2 input[type='email']:focus {
+footer .footer2 input[type="text"]:focus,
+footer .footer2 input[type="email"]:focus {
   box-shadow: none;
   border-color: #ff8013;
 }
@@ -337,7 +359,8 @@ footer .footer3 a:hover {
 footer .footer3 .nav-item li {
   margin: 0 5px;
 }
-footer .table td, footer .table th {
+footer .table td,
+footer .table th {
   border: none;
 }
 
@@ -368,7 +391,8 @@ footer::before {
     max-width: 50px;
   }
 
-  .fh5co-network figure, .fh5co-about-us figure {
+  .fh5co-network figure,
+  .fh5co-about-us figure {
     margin-top: 0 !important;
   }
 
