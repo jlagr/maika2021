@@ -285,13 +285,13 @@ a:hover {
 .fh5co-content-box .gallery .btn-outline-danger {
   font-family: "Lato", sans-serif;
   font-weight: 700;
-  border-color: #ff8013;
-  color: #ff8013;
+  border-color: #fff;
+  color: #fff;
 }
 .fh5co-content-box .gallery a:hover {
   background: transparent;
-  color: #fff;
-  background: #ff8013;
+  color: #ff8013;
+  background: #fff;
 }
 
 footer {

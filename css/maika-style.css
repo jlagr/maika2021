@@ -301,6 +301,12 @@ a:hover {
   margin-left: 100px;
 }
 
+.card a:hover {
+  background: transparent;
+  color: #ff8013;
+  background: #fff;
+}
+
 footer {
   background: #101011;
   color: #fff;
