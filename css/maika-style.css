@@ -291,7 +291,7 @@ a:hover {
   background-color: transparent;
 }
 .card img {
-  border-radius: 25px;
+  border-radius: 10px;
   box-shadow: 2px 2px 4px #000000;
 }
 
