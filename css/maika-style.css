@@ -273,7 +273,7 @@ a:hover {
   background: transparent;
 }
 .fh5co-content-box .gallery .card img {
-  border-radius: 0;
+  border-radius: 10px;
   max-height: 580px;
 }
 .fh5co-content-box .gallery .card .card-body {
@@ -293,6 +293,12 @@ a:hover {
 .card img {
   border-radius: 25px;
   box-shadow: 2px 2px 4px #000000;
+}
+
+.card .btn-outline-danger {
+  color: #fff;
+  border-color: #fff;
+  margin-left: 100px;
 }
 
 footer {

@@ -269,7 +269,7 @@ a:hover {
   background: transparent;
 }
 .fh5co-content-box .gallery .card img {
-  border-radius: 0;
+  border-radius: 10px;
   max-height: 580px;
 }
 .fh5co-content-box .gallery .card .card-body {
