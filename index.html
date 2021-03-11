@@ -187,30 +187,32 @@
         </div>
       </div>
       <div class="col-md-6 footer2 wow bounceInUp" data-wow-delay=".25s" id="contact">
-        <div class="form-box">
-          <h4>CONTACTANOS</h4>
-          <table class="table table-responsive d-table">
-            <tr>
-              <td><input type="text" class="form-control pl-0" placeholder="NOMBRE" /></td>
-              <td><input type="email" class="form-control pl-0" placeholder="EMAIL" /></td>
-            </tr>
-            <tr>
-              <td colspan="2"></td>
-            </tr>            
-            <tr>
-              <td colspan="2"></td>
-            </tr>
-            <tr>
-              <td colspan="2"><input type="text" class="form-control pl-0" placeholder="MENSAJE" /></td>
-            </tr>
-            <tr>
-              <td colspan="2"></td>
-            </tr>
-            <tr>
-              <td colspan="2" class="text-center pl-0"><button type="submit" class="btn btn-dark">ENVIAR</button></td>
-            </tr>
-          </table>
-        </div>
+        <form action="enviar.php" method="POST">
+          <div class="form-box">          
+            <h4>CONTACTANOS</h4>
+            <table class="table table-responsive d-table">
+              <tr>
+                <td><input type="text" class="form-control pl-0" placeholder="NOMBRE" name="nombre" required/></td>
+                <td><input type="email" class="form-control pl-0" placeholder="EMAIL" name="email" required/></td>
+              </tr>
+              <tr>
+                <td colspan="2"></td>
+              </tr>            
+              <tr>
+                <td colspan="2"></td>
+              </tr>
+              <tr>
+                <td colspan="2"><input type="text" class="form-control pl-0" placeholder="MENSAJE" name="mensaje" required/></td>
+              </tr>
+              <tr>
+                <td colspan="2"></td>
+              </tr>
+              <tr>
+                <td colspan="2" class="text-center pl-0"><button type="submit" class="btn btn-dark">ENVIAR</button></td>
+              </tr>
+            </table>
+          </div>
+        </form>
       </div>
       <div class="col-md-3 footer3 wow bounceInRight" data-wow-delay=".25s">
         <h5>DIRECCION</h5>
